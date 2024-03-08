@@ -36,8 +36,8 @@ const UserInput = () => {
             <input 
                 type='number' 
                 required 
-                value={userInput.initialInvestment}
-                onChange={(event) => handleChange('initialInvestment', event.target.value)}
+                value={userInput.annualInvestment}
+                onChange={(event) => handleChange('annualInvestment', event.target.value)}
             />
         </p>
       </div>
@@ -48,8 +48,8 @@ const UserInput = () => {
             <input 
                 type='number' 
                 required 
-                value={userInput.initialInvestment}
-                onChange={(event) => handleChange('initialInvestment', event.target.value)}
+                value={userInput.expectedReturn}
+                onChange={(event) => handleChange('expectedReturn', event.target.value)}
             />
         </p>
 
@@ -58,8 +58,8 @@ const UserInput = () => {
             <input 
                 type='number' 
                 required 
-                value={userInput.initialInvestment}
-                onChange={(event) => handleChange('initialInvestment', event.target.value)}
+                value={userInput.duration}
+                onChange={(event) => handleChange('duration', event.target.value)}
             />
         </p>
       </div>
